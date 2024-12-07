@@ -5,7 +5,7 @@ let users = [
   ];
 // add new object to existing array of object
 
-  users.push({id:4,name: "diana", age: 28});
+  users.push({id:4,name: "Diana", age: 28});
   console.log(users);
 
 // after readuser
@@ -35,7 +35,7 @@ readuser(users);
 
 const modifiedusers = users.map(obj =>{
   if(obj.id === 2) {
-      return{...obj, name : "robert",age: 32};
+      return{...obj, name : "Robert",age: 32};
   }
   return obj;
 });
